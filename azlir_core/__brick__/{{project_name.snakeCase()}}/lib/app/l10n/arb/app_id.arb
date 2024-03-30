@@ -1,0 +1,15 @@
+{
+	"@@locale": "id",
+	"counterAppBarTitle": "Penghitung",
+	"@counterAppBarTitle": {
+		"description": "Teks yang ditampilkan di appbar di halaman penghitung"
+	},
+	"common_yes": "Ya",
+	"@common_yes": {
+		"description": "Teks umum untuk 'ya'"
+	},
+	"common_no": "Tidak",
+	"@common_no": {
+		"description": "Teks umum untuk 'tidak'"
+	}
+}

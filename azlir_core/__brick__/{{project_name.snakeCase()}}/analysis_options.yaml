@@ -1,0 +1,21 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+analyzer:
+  plugins:
+    - custom_lint
+
+  exclude:
+    - '**.g.dart'
+    - '**.freezed.dart'
+    - '**.config.dart'
+    - '**.chopper.dart'
+    - '**.mocks.dart'
+    - lib/app/generated/**.dart
+    - lib/app/generated/**
+    - lib/**/generated_plugin_registrant.dart
+
+linter:
+  rules:
+    public_member_api_docs: false
+    sort_constructors_first: false
+    use_setters_to_change_properties: false

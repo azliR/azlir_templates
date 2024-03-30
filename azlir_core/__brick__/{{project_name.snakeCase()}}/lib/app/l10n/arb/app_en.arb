@@ -1,0 +1,15 @@
+{
+	"@@locale": "en",
+	"counterAppBarTitle": "Counter",
+	"@counterAppBarTitle": {
+		"description": "Text shown in the AppBar of the Counter Page"
+	},
+	"common_yes": "Yes",
+	"@common_yes": {
+		"description": "Common text for 'yes'"
+	},
+	"common_no": "No",
+	"@common_no": {
+		"description": "Common text for 'no'"
+	}
+}

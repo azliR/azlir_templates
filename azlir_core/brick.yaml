@@ -1,4 +1,4 @@
-name: azlir_riverpod
+name: azlir_core
 description: A new brick created with the Mason CLI.
 
 # The following defines the brick repository url.
@@ -26,8 +26,22 @@ environment:
 #  * a list of values (enums only)
 #  * an optional separator (list only)
 vars:
-  name:
+  project_name:
     type: string
-    description: Your name
-    default: Dash
-    prompt: What is your name?
+    description: The project name
+    default: flutter_app
+    prompt: What is the project name?
+  org_name:
+    type: string
+    description: The organization name
+    default: com.azlir
+    prompt: What is the organization name?
+  application_id:
+    type: string
+    description: The application id on Android, Bundle ID on iOS and company name on Windows. If omitted value will be formed by org_name + . + project_name.
+    prompt: What is the application id?
+  description:
+    type: string
+    description: A short project description
+    default: A Very Good App
+    prompt: What is the project description?

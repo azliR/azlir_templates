@@ -23,7 +23,7 @@ Future<void> run(HookContext context) async {
   final currentDir = Directory.current.directory(projectName);
 
   final makeCommands = [
-    'pub_get',
+    'pub_upgrade_major',
     'fix_lint',
     'format',
     'icons_launcher',

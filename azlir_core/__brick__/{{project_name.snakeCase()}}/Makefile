@@ -11,6 +11,12 @@ pub_clean: ## Empties the entire system cache to reclaim extra disk space or rem
 
 pub_get: ## Gets pubs
 	flutter pub get
+	
+pub_upgrade: ## Upgrade pubs
+	flutter pub upgrade
+	
+pub_upgrade_major: ## Upgrade pubs to major versions
+	flutter pub upgrade --major-versions
 
 pub_outdated: ## Check for outdated packages
 	flutter pub outdated
